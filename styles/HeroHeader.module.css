@@ -1,0 +1,25 @@
+.heroHeader_section {
+	color: var(--text);
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color-body);
+}
+
+.heroHeader_wrap {
+	padding-top: 2vh;
+}
+
+/**
+*   Featured Posts Slider
+*/
+.featuredPosts_section {
+	max-width: 100%;
+	padding-bottom: 12vh;
+}
+
+.featuredPosts_padding {
+	position: relative;
+	padding-left: 8vw;
+	padding-right: auto;
+}

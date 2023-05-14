@@ -1,0 +1,107 @@
+.subscribe {
+    width: 100%;
+    height: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--color-body-lightpink);
+}
+
+.subscribe h3 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -.025em;
+}
+
+.subscribe span {
+    font-weight: 700;
+}
+
+.subscribe span::before {
+    content: " ";
+}
+
+.subscribe_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe_wrap span {
+    font-weight: 400;
+}
+
+.subscribe_form {
+    display: flex;
+    align-items: center;
+    margin-top: 1.4vh;
+    margin-bottom: 1.4vh;
+    border-radius: 100px;
+    background-color: hsla(0, 0%, 8%, .1);
+}
+
+.subscribe_form form {
+    margin-top: 2.4vh;
+    margin-right: 0;
+}
+
+.subscribe_form input {
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    padding: 0 30px;
+    word-break: normal;
+    border-radius: 100px;
+    line-height: 1.3em;
+    background-color: transparent;
+    overflow: visible;
+    border: transparent;
+}
+
+.subscribe_form button {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.3em;
+    position: relative;
+    display: inline-block;
+    padding: 18px 36px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--text-whiteghost);
+    border: 0;
+    border-radius: 100px;
+    outline: 0;
+    transition: background-color .15s ease;
+    background-color: hsla(0, 0%, 8%, .8);
+}
+
+.subscribe_form button:hover {
+    background-color: var(--button-default-color);
+}
+
+@media (max-width: 768px) {
+    .subscribe {
+        padding-top: 40px;
+        padding-bottom: 40px;    
+    }
+    .subscribe h3 {
+        font-size: 1.8em;
+        padding-right: 0;
+    }
+    .subscribe .subscribe_form {
+        margin-top: 2vh;
+        margin-right: 0;
+    }    
+    .subscribe .subscribe_form input {
+        font-size: 1.2em;
+        max-width: 230px;
+        padding: 0 20px;
+    }
+    .subscribe .subscribe_form button {
+        font-size: 1.2em;
+        padding: 13px 24px;
+    }
+}

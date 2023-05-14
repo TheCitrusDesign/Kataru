@@ -1,0 +1,150 @@
+.container {
+    position: relative;
+}
+
+.row {
+    height: 100vh;
+    align-items: center;
+}
+
+.image_container {
+    position: relative;
+}
+
+.thumbnail {
+    overflow: hidden;
+    position: relative;
+}
+
+.frame img {
+    width: 100%;
+}
+
+.information {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.location span:nth-child(2) {
+    margin-left: 8px;
+}
+
+
+.single .container .top_row {
+    height: 50vh;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.top {
+    padding-bottom: 40px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location span:nth-child(2) {
+    margin-left: 16px;
+}
+
+.mua {
+    text-transform: uppercase;
+}
+
+.model {
+    overflow: hidden;
+}
+
+.first {
+    margin-right: 72px;
+}
+
+.first span {
+    display: inline-block;
+    font-size: 10rem;
+    color: var(--text);
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: .015em;
+    background: var(--color-body);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(173deg, #fc00ff, #00dbde);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #8665ec;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.last span {
+    display: inline-block;
+    font-size: 10rem;
+    color: var(--text);
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: .015em;
+    background: var(--color-body);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(23deg, #fc00ff, #00dbde);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #8665ec; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottom_row {
+    height: 50vh;
+    position: relative;
+}
+
+.bottom_row .bottom {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom .thumbnail_single {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.frame_single img {
+    position: absolute;
+    width: 100%;
+}
+
+.text {
+    margin-top: 8px;
+    color: var(--text);
+    text-transform: uppercase;
+}
+
+.detailed_information {
+    margin-top: 200px;
+    height: 600px;
+}
+
+.container .row {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container .row h2 {
+    font-size: 28px;
+}
+
+.container .row p {
+    font-family: "Helvetica Neue";
+    font-size: 16;
+    line-height: 28px;
+    font-weight: 400;
+    width: 800px;
+}

@@ -1,0 +1,50 @@
+/**  Start RelatedPost Style */
+.related_wrap {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.small_title {
+    display: flex;
+    margin-bottom: 2vh;
+    padding-top: 1.8vh;
+    font-size: 1.8rem;
+}
+
+.small_title .subtitle {
+    line-height: 1.1;
+    flex: 1 0 50%;
+    max-width: 800px;
+    margin: 0,
+}
+
+.small_title span {
+    font-weight: 700;
+}
+
+/** Start RelatedPostCard Style */
+.article_wrap {
+    margin-bottom: 1vh;
+}
+
+.article_title {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-right: 10px;
+}
+
+.article_title a {
+    color: var(--text);
+}
+
+.article_title a:hover {
+    text-decoration: underline;
+}
+
+.article_title h2 {
+    font-size: 1.1em;
+}

@@ -1,0 +1,47 @@
+.navigation_wrap,
+.navigation_wrap a {
+    display: flex;
+}
+
+.navigation_wrap {
+	flex-wrap: wrap;
+	padding: 4vh 0;
+}
+
+.navigation_wrap a {
+	flex: 0 0 50%;
+	box-sizing: border-box;
+	max-width: 640px;
+	min-height: 160px;
+	pointer-events: none;
+}
+
+@media (max-width: 768px) {
+	.navigation_wrap a {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+.navigation_image {
+	line-height: 0;
+	position: relative;
+	width: 160px;
+	height: 160px;
+	pointer-events: auto;
+}
+
+.navigation_wrap img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.navigation_content {
+	line-height: 0;
+	display: inline-block;
+	width: 100%;
+	padding: 1vh 0;
+}
