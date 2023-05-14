@@ -1,0 +1,73 @@
+.markdown {
+  @apply max-w-4xl mx-auto text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown h4 {
+  @apply text-2xl font-bold mt-8 mb-4 leading-snug lg:text-3xl;
+}
+
+.markdown p,
+.markdown ul {
+  @apply text-base leading-relaxed lg:text-xl
+}
+
+.markdown ul {
+  @apply list-disc mr-0 ml-8 mt-0 mb-8
+}
+
+.markdown blockquote {
+  @apply text-6xl font-bold leading-snug text-center pt-14 pb-14 border-0
+}
+
+.markdown blockquote::before {
+  content: "“";
+  font-size: 200%;
+  line-height: .2;
+  display: block;
+  color: var(--primary);
+}
+
+.markdown blockquote p {
+  @apply text-2xl font-bold leading-snug p-0 text-center lg:text-6xl
+}
+
+.markdown img {
+  width: calc(100% + 50px + 50px);
+  max-width: calc(100% + 50px + 50px);
+  height: 550px;
+  border-radius: 18px;
+  margin-left: -50px;
+  object-fit: cover;
+  margin-top: 6vh;
+}
+
+@media (max-width: 1024px) {
+  .markdown img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
+.markdown p em {
+  @apply w-full text-xs font-normal text-center
+}
+
+.markdown em a {
+  @apply underline hover:text-light-blue
+}
